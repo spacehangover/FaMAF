@@ -89,4 +89,4 @@ cuadradoRojo (x:xs)  | cuadrado x==True = rojo x && cuadradoRojo xs
 propI :: [Figura] -> Bool
 propI [] = True
 propI (x:xs)    | circuloRojo [x] = cuadradoRojo xs
-                | otherwise = propI xss
+                | otherwise = propI xs
