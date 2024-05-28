@@ -37,26 +37,7 @@ trianguloRojoGrande = (Triangulo, Rojo, 15)
 tam :: Figura -> Int
 tam (f,c,t) = t
 
-propA :: [Figura] -> Bool
-propA [] = True
-propA (x : xs) = rojo x && propA xs
-
-propB :: [Figura] -> Bool
-propB [] = True
-propB (x:xs) = tam x < 5 && propB xs
 
 
-propCAgus :: [Figura] -> Bool
-propCAgus [] = True
-propCAgus (x:xs) | triangulo x==True = rojo x && propCAgus xs
-                 | otherwise = propCAgus xs
 
-propD :: [Figura] -> Bool
-propD [] = False
-propD (x:xs) | (cuadrado x && verde x) = True
-             | (cuadrado x && verde x) == False = propD xs    
 
-propE :: [Figura] -> Bool
-propE [] = False
-propE (x:xs) | circulo x==True = azul x && tam x < 10 && propE xs
-             | otherwise = propE xs
