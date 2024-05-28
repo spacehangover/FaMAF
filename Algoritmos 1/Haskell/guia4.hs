@@ -90,7 +90,3 @@ propI :: [Figura] -> Bool
 propI [] = True
 propI (x:xs)    | circuloRojo [x] = cuadradoRojo xs
                 | otherwise = propI xs
-
--- propI :: [Figira] -> Bool
--- propI [] = False
--- propI (x:xs) 
