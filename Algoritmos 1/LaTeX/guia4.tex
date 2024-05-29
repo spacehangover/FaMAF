@@ -99,6 +99,30 @@ Explica cómo analizaste los datos.
         \item Algun circulo de xs no es azul. \\
         \( xs = [(\text{Cuadrado}, \text{Verde}, 11),(\text{Triangulo}, \text{Rojo}, 4), (\text{Circulo}, \text{Amarillo}, 6)] \)
     \end{enumerate}
+    \item Da un ejemplo de una lista de figuras xs que satisfaga simultaneamente los siguientes predicados.
+    \begin{enumerate}
+        \item \( \langle \forall x : x \in_\ell xs \land (\neg rojo.x \lor triangulo.x) : tam.x > 10 \rangle \)
+    \end{enumerate}
+
+    \item Formaliza las siguientes sentencias escritas en lenguaje natural, utilizando cuantificadores y predicados
+    arbitrarios para aquellas propiedades elementales. Cuando haya listas involucradas podes utilizar los operadores sobre listas que ya conoces. Por ejemplo, para la sentencia “Hay enteros pares” puede formalizarse
+    con la formula:
+    \begin{center}
+        \( \langle \exists x : entero.x : mod.x . 2 = 0 \rangle \)
+    \end{center}
+    \begin{enumerate}
+        \item \( \langle \forall x : entero.x : mod.x.2 = 0 \lor mod.x.2 \neq 0  \rangle \)
+        \item \( \langle \forall x : x \in_\ell xs : x = 0 \lor x = 1  \rangle \)
+        \item \( \langle \exists x : x \in_\ell xs : x = 1  \rangle \implies \langle \exists x : x \in_\ell xs : x = 0  \rangle \)
+        \item \( \langle \exists x : x \in_\ell xs : x = True  \rangle \)
+        \item \( \langle \forall xs : xs \neq [] : xs!!0 == 0  \rangle \)
+        \item \( \langle \forall i,j : (0  <= i < \# xs) : x = 0 \lor x = 1  \rangle \)
+        \item \( \langle \forall i,j : (0 <= i < \# xs) \land (0 <= j < \# xs): (xs!!i) \neq (xs!!j)  \rangle \)
+        \item \( \langle \forall i,j : (0 <= i < \# xs) \land (i <= j < \# xs): (xs!!i > xs!!j)  \rangle \)
+        \item \( \langle \forall i,j : (0 <= i < \# xs) \land (0 <= j < \# xs): (xs!!i = xs!!j)  \rangle \)
+        \item \( \langle \forall x : x \in_\ell xs : \# x \neq 0  \rangle \)
+    \end{enumerate}
+
 \end{enumerate}
 
 \end{document}
