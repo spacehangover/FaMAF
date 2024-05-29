@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.26)  29 MAY 2024 00:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.26)  29 MAY 2024 00:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -404,7 +404,22 @@ Overfull \hbox (22.39769pt too wide) in paragraph at lines 93--95
 \OML/cmm/m/it/12 xs \OT1/cmr/m/n/12 = [([]\OML/cmm/m/it/12 ; []; \OT1/cmr/m/n/12 3)\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 ([]\OML/cmm/m/it/12 ; []; \OT1/cmr/m/n/12 4)\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 ([]\OML/cmm/m/it/12 ; []; \OT1/cmr/m/n/12 6)]$ 
  []
 
-[3] (guia4.aux
+
+Overfull \hbox (28.27263pt too wide) in paragraph at lines 95--97
+\OML/cmm/m/it/12 xs \OT1/cmr/m/n/12 = [([]\OML/cmm/m/it/12 ; []; \OT1/cmr/m/n/12 11)\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 ([]\OML/cmm/m/it/12 ; []; \OT1/cmr/m/n/12 4)\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 ([]\OML/cmm/m/it/12 ; []; \OT1/cmr/m/n/12 6)]$ 
+ []
+
+
+Overfull \hbox (28.27263pt too wide) in paragraph at lines 97--99
+\OML/cmm/m/it/12 xs \OT1/cmr/m/n/12 = [([]\OML/cmm/m/it/12 ; []; \OT1/cmr/m/n/12 11)\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 ([]\OML/cmm/m/it/12 ; []; \OT1/cmr/m/n/12 4)\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 ([]\OML/cmm/m/it/12 ; []; \OT1/cmr/m/n/12 6)]$ 
+ []
+
+[3]
+Overfull \hbox (28.27263pt too wide) in paragraph at lines 99--101
+\OML/cmm/m/it/12 xs \OT1/cmr/m/n/12 = [([]\OML/cmm/m/it/12 ; []; \OT1/cmr/m/n/12 11)\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 ([]\OML/cmm/m/it/12 ; []; \OT1/cmr/m/n/12 4)\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 ([]\OML/cmm/m/it/12 ; []; \OT1/cmr/m/n/12 6)]$ 
+ []
+
+[4] (guia4.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
@@ -416,17 +431,17 @@ Package rerunfilecheck Info: File `guia4.out' has not changed.
 (rerunfilecheck)             Checksum: 111F7CC15991C3A3F91B98A32841182E;396.
  ) 
 Here is how much of TeX's memory you used:
- 11046 strings out of 474369
- 172678 string characters out of 5736738
- 1940754 words of memory out of 5000000
+ 11049 strings out of 474369
+ 172698 string characters out of 5736738
+ 1941754 words of memory out of 5000000
  33287 multiletter control sequences out of 15000+600000
  567173 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,7n,79p,277b,544s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,7n,79p,277b,632s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/spacehangover/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/spacehangover/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/spacehangover/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/spacehangover/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/spacehangover/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/spacehangover/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/spacehangover/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/spacehangover/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/spacehangover/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/spacehangover/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/spacehangover/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on guia4.pdf (3 pages, 132113 bytes).
+Output written on guia4.pdf (4 pages, 133468 bytes).
 PDF statistics:
- 124 PDF objects out of 1000 (max. 8388607)
- 35 named destinations out of 1000 (max. 500000)
+ 133 PDF objects out of 1000 (max. 8388607)
+ 38 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 

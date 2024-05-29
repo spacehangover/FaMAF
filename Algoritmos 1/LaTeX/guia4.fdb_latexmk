@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1716952028.64624 "d:/FaMAF/Algoritmos 1/LaTeX/guia4.tex" "guia4.pdf" "guia4" 1716952030.14367 0
+["pdflatex"] 1716953119.62696 "d:/FaMAF/Algoritmos 1/LaTeX/guia4.tex" "guia4.pdf" "guia4" 1716953121.6667 0
   "C:/Users/spacehangover/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1716944520 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/spacehangover/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1716765840 24244171 f1ecd0378633da8221d38b4791c021a8 ""
   "C:/Users/spacehangover/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -90,10 +90,10 @@
   "C:/Users/spacehangover/AppData/Local/Programs/MiKTeX/tex/latex/refcount/refcount.sty" 1576433952 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "C:/Users/spacehangover/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657800696 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "C:/Users/spacehangover/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "d:/FaMAF/Algoritmos 1/LaTeX/guia4.tex" 1716952026 5603 7042c862cf8ce4f8cda9ac5c114f664b ""
-  "guia4.aux" 1716952029 756 24f84bb4479a137645be142f32185573 "pdflatex"
-  "guia4.out" 1716952029 396 111f7cc15991c3a3f91b98a32841182e "pdflatex"
-  "guia4.tex" 1716952026 5603 7042c862cf8ce4f8cda9ac5c114f664b ""
+  "d:/FaMAF/Algoritmos 1/LaTeX/guia4.tex" 1716953117 6149 f30d1c482cdaaffd3c5fa965a2265ee7 ""
+  "guia4.aux" 1716953121 756 3c07080e3ad6226a7fc058c437e58bca "pdflatex"
+  "guia4.out" 1716953121 396 111f7cc15991c3a3f91b98a32841182e "pdflatex"
+  "guia4.tex" 1716953117 6149 f30d1c482cdaaffd3c5fa965a2265ee7 ""
   (generated)
   "guia4.aux"
   "guia4.log"
