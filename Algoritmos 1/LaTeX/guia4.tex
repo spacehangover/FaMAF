@@ -7,40 +7,92 @@
 \usepackage{graphicx} % Para incluir imágenes
 \usepackage{hyperref} % Para enlaces clicables (opcional)
 
-% Información del documento
-\title{Título de tu Documento}
-\author{Tu Nombre}
-\date{\today} % Fecha de hoy
+\title{Introduccion a los Algoritmos}
+\author{Agustin Mascó}
+\date{\today} 
 
 \begin{document}
 
-\maketitle % Crea el título
+\maketitle 
 
-% Resumen (opcional)
+
 \begin{abstract}
-Resumen breve de tu trabajo.
+Ejercicios prácticos de la materia Introduccion a los Algoritmos
 \end{abstract}
 
-% Contenido principal
-\section{Introducción}
+\pagebreak
+
+\section{Práctico 1}
 Aquí comienza tu texto. Puedes dividirlo en secciones y subsecciones.
 
-\section{Metodología}
+\section{Práctico 2}
 Describe los métodos utilizados.
 
-\subsection{Análisis de datos}
+\subsection{Práctico 3}
 Explica cómo analizaste los datos.
 
-\section{Resultados}
-Presenta tus resultados.
+\section{Práctico 4}
 
-\section{Conclusiones}
-Resume tus hallazgos principales.
+\begin{enumerate}
+    \item Realizados en FaMAF/Algoritmos 1/Haskell/guia4.hs
+    \item Realizados en FaMAF/Algoritmos 1/Haskell/guia4.hs
+    \item Dada una lista de figuras xs expresa las siguientes propiedades utilizando los cuantificadores y los predicados y funciones ya definidas
+    \begin{enumerate}
+        \item \( \langle \forall x : x \in_\ell  \, xs : x.rojo  \rangle \)
+        \item \( \langle \forall x : x \in_\ell  \, xs : x.tam < 5  \rangle \)
+        \item \( \langle \forall x : x \in_\ell  \, xs : x.triangulo \land x.rojo  \rangle \)
+        \item \( \langle \exists x : x \in_\ell  \, xs : x.cuadrado \land x.verde  \rangle \)
+        \item \( \langle \forall x : x \in_\ell  \, xs \land x.circulo : x.azul \land x.tam < 10 \rangle \)
+        \item \( \langle \nexists x : x \in_\ell  \, xs \land x.triangulo : x.azul  \rangle \)
+        \item \( \langle \nexists x : x \in_\ell  \, xs \land x.triangulo : x.azul \lor x.verde \rangle \)
+        \item \( \langle \exists x : x \in_\ell  \, xs : x.cuadrado \land x.tam < 5  \rangle \)
+        \item \( \langle \exists x : x \in_\ell  \, xs : x.circulo \land x.rojo  \rangle \implies \langle \exists x \in_\ell xs : x.cuadrado \land x.rojo \rangle \) 
+    \end{enumerate}
 
-% Referencias (opcional)
-\begin{thebibliography}{9} % 9 es el máximo número de referencias
-\bibitem{referencia1} Autor1, Título1, etc.
-\bibitem{referencia2} Autor2, Título2, etc.
-\end{thebibliography}
+    \pagebreak
+
+    \item Para cada propiedad del ejercicio 3 defini una función recursiva que dada una lista devuelva verdadero si
+    la propiedad se cumple para esa lista y falso en caso contrario. Por ejemplo, para el predicado “Todas las
+    figuras de xs son rojas” de la propiedad 3a
+
+    \begin{enumerate}
+        \item
+        \( xs = [(\text{Triangulo}, \text{Rojo},10),(\text{Cuadrado}, \text{Rojo},20),(\text{Circulo}, \text{Rojo}, 20)] \) 
+            \( xs' = [(\text{Cuadrado}, \text{Azul}, 10),(\text{Circulo}, \text{Rojo},40),(\text{Triangulo}, \text{Rojo},30)] \)
+        \item
+        \(  xs = [(\text{Cuadrado}, \text{Azul}, 3),(\text{Cuadrado}, \text{Rojo}, 4), (\text{Circulo}, \text{Amarillo}, 1)] \) 
+            \(  xs' = [(\text{Cuadrado}, \text{Azul}, 3),(\text{Cuadrado}, \text{Rojo}, 4), (\text{Circulo}, \text{Amarillo}, 6)] \)
+        \item
+        \( xs = [(\text{Cuadrado}, \text{Azul}, 3),(\text{Triangulo}, \text{Rojo}, 4), (\text{Circulo}, \text{Amarillo}, 6)] \) 
+            \( xs' = [(\text{Cuadrado}, \text{Azul}, 3),(\text{Triangulo}, \text{Rojo}, 4), (\text{Triangulo}, \text{Amarillo}, 6)] \)
+        \item
+        \( xs = [(\text{Cuadrado}, \text{Verde}, 3),(\text{Triangulo}, \text{Rojo}, 4), (\text{Circulo}, \text{Amarillo}, 6)]  \) 
+            \( xs = [(\text{Cuadrado}, \text{Azul}, 3),(\text{Triangulo}, \text{Rojo}, 4), (\text{Circulo}, \text{Amarillo}, 6)] \)
+        \item
+        \( xs = [(\text{Circulo}, \text{Azul}, 3),(\text{Triangulo}, \text{Rojo}, 4), (\text{Circulo}, \text{Azul}, 6)]  \) \\
+            \( xs' = [(\text{Cuadrado}, \text{Verde}, 3),(\text{Triangulo}, \text{Rojo}, 4), (\text{Circulo}, \text{Amarillo}, 6)] \)
+        \item
+        \(xs = [(\text{Cuadrado}, \text{Verde}, 3),(\text{Triangulo}, \text{Rojo}, 4), (\text{Triangulo}, \text{Amarillo}, 6)] \) 
+        \( xs' = [(\text{Cuadrado}, \text{Verde}, 3),(\text{Triangulo}, \text{Azul}, 4), (\text{Circulo}, \text{Amarillo}, 6)] \)
+        \item
+        \( xs = [(\text{Cuadrado}, \text{Verde}, 3),(\text{Triangulo}, \text{Rojo}, 4), (\text{Circulo}, \text{Rojo}, 6)] \) 
+        \(xs' = [(\text{Cuadrado}, \text{Verde}, 3),(\text{Triangulo}, \text{Rojo}, 4), (\text{Circulo}, \text{Amarillo}, 6)] \)
+        \item
+        \( xs = [(\text{Cuadrado}, \text{Verde}, 3),(\text{Triangulo}, \text{Rojo}, 4), (\text{Circulo}, \text{Amarillo}, 6)] \) 
+            \( xs' = [(\text{Cuadrado}, \text{Verde}, 8),(\text{Triangulo}, \text{Rojo}, 4), (\text{Circulo}, \text{Amarillo}, 6)] \)
+        \item
+            \( xs = [(\text{Cuadrado}, \text{Verde}, 3),(\text{Triangulo}, \text{Rojo}, 4), (\text{Circulo}, \text{Amarillo}, 6)] \) 
+    \end{enumerate}
+
+    \item Realizados en FaMAF/Algoritmos 1/Haskell/guia4.hs
+    \item Construi una lista de figuras xs en las que se satisfagan progresivamente cada una de las siguientes
+    sentencias. Formalizá las oraciones con la lógica de predicados.
+    \begin{enumerate}
+        \item Alguna figura de xs es de tamaño mayor a 10. \\
+        \( xs = [(\text{Cuadrado}, \text{Verde}, 3),(\text{Triangulo}, \text{Rojo}, 4), (\text{Circulo}, \text{Amarillo}, 6)] \) 
+        \item Hay un cuadrado en xs. \\
+        \( xs = [(\text{Cuadrado}, \text{Verde}, 3),(\text{Triangulo}, \text{Rojo}, 4), (\text{Circulo}, \text{Amarillo}, 6)] \)
+    \end{enumerate}
+\end{enumerate}
 
 \end{document}
